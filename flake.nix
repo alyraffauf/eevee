@@ -83,7 +83,7 @@
       flake = false;
     };
     gitsignsNvim = {
-      url = "github:lewis6991/gitsigns.nvim/a462f416e2ce4744531c6256252dee99a7d34a83";
+      url = "github:lewis6991/gitsigns.nvim/5be654f2232c10ddcad19c1607a67b6b4b78fc29";
       flake = false;
     };
     guessIndentNvim = {
