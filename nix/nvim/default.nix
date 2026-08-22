@@ -13,7 +13,6 @@
     ["schemastore" "schemastore.nvim"]
     ["aerialNvim" "aerial.nvim"]
     ["ansibleVim" "ansible-vim"]
-    ["blinkCmp" "blink.cmp"]
     ["blinkCompat" "blink.compat"]
     ["cmpDap" "cmp-dap"]
     ["codecompanionNvim" "codecompanion.nvim"]
@@ -68,7 +67,7 @@
   ];
 
   mkPluginSources = pkgs:
-    lib.listToAttrs (map (plugin: let
+    (lib.listToAttrs (map (plugin: let
         inputName = builtins.elemAt plugin 0;
         packageName = builtins.elemAt plugin 1;
       in {
@@ -80,7 +79,10 @@
           doCheck = false;
         };
       })
-      pluginDefinitions);
+      pluginDefinitions))
+    // {
+      blinkCmp = inputs.nvf.packages.${pkgs.stdenv.hostPlatform.system}.blink-cmp;
+    };
 
   mkModuleOption = description:
     lib.mkOption {
@@ -137,7 +139,7 @@ in {
     options.eevee.sources = lib.mkOption {
       type = lib.types.attrsOf lib.types.package;
       default = {};
-      description = "Vim plugins built from pinned flake inputs.";
+      description = "Vim plugin packages used by Lazy.nvim.";
     };
     options.eevee.pluginOrder = lib.mkOption {
       type = lib.types.listOf lib.types.str;

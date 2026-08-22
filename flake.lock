@@ -150,23 +150,6 @@
         "type": "github"
       }
     },
-    "blinkCmp": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1775330305,
-        "narHash": "sha256-C1FpyGw0f35NdHvDUGPXxmKdOgw3SpIteK1gAjVy6Ns=",
-        "owner": "Saghen",
-        "repo": "blink.cmp",
-        "rev": "78336bc89ee5365633bcf754d93df01678b5c08f",
-        "type": "github"
-      },
-      "original": {
-        "owner": "Saghen",
-        "ref": "v1.10.2",
-        "repo": "blink.cmp",
-        "type": "github"
-      }
-    },
     "blinkCompat": {
       "flake": false,
       "locked": {
@@ -983,7 +966,6 @@
         "astrotheme": "astrotheme",
         "astroui": "astroui",
         "betterEscape": "betterEscape",
-        "blinkCmp": "blinkCmp",
         "blinkCompat": "blinkCompat",
         "catppuccinNvim": "catppuccinNvim",
         "chezmoi": "chezmoi",

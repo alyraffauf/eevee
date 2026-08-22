@@ -56,11 +56,6 @@
       flake = false;
     };
 
-    blinkCmp = {
-      url = "github:Saghen/blink.cmp/v1.10.2";
-      flake = false;
-    };
-
     blinkCompat = {
       url = "github:Saghen/blink.compat";
       flake = false;
