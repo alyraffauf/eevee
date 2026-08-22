@@ -1,6 +1,6 @@
 # eevee
 
-Eevee is a set of [NVF](https://github.com/NotAShelf/nvf) modules and Neovim packages for Nix. `sylveon` is my personal neovim package, wrapped with my configs.
+Eevee is a set of [NVF](https://github.com/NotAShelf/nvf) modules for Neovim. `sylveon` is my personal neovim package, delivered pre-wrapped with my configs.
 
 ## Use Sylveon
 
@@ -8,7 +8,7 @@ Eevee is a set of [NVF](https://github.com/NotAShelf/nvf) modules and Neovim pac
 {
   inputs.eevee.url = "github:alyraffauf/eevee";
 
-  imports = [ inputs.eevee.neovimModules.sylveon ];
+  imports = [inputs.eevee.neovimModules.sylveon];
 }
 ```
 
