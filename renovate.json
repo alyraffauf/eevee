@@ -2,6 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
+    "docker:pinDigests",
     ":dependencyDashboard",
     "helpers:pinGitHubActionDigests"
   ],
@@ -23,9 +24,15 @@
       "automerge": true
     },
     {
-      "description": "Major updates require review",
+      "description": "Major bumps stay manual",
       "matchUpdateTypes": ["major"],
       "automerge": false
+    },
+    {
+      "description": "Lock file maintenance updates FlakeHub inputs",
+      "matchManagers": ["nix"],
+      "matchPackageNames": ["/^https:\\/\\/flakehub\\.com\\/f\\//"],
+      "enabled": false
     }
   ],
   "vulnerabilityAlerts": {
