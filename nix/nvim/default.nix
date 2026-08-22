@@ -189,6 +189,7 @@ in {
         startPlugins = [config.eevee.sources.lazyNvim config.eevee.treesitter config.eevee.grammarBundle] ++ config.eevee.grammarPackages;
         luaConfigRC.eevee = inputs.nvf.lib.nvim.dag.entryAfter ["mappings"] ''
           require("lazy").setup(${toLua config.eevee.pluginSpecs}, ${toLua config.eevee.lazyOptions})
+          require("resession").setup(${toLua config.eevee.resessionOpts})
           vim.opt.rtp:prepend("${toString config.eevee.grammarBundle}")
 
           local treesitter_group = vim.api.nvim_create_augroup("eevee_treesitter", { clear = true })
