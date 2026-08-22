@@ -13,40 +13,17 @@ _: {
       }
       // extra;
 
-    grammarPackages = with p.nvim-treesitter.grammarPlugins; [
-      bash
-      c
-      css
+    baseGrammarPackages = with p.nvim-treesitter.grammarPlugins; [
       diff
-      dockerfile
-      fish
       git_config
       gitignore
-      gleam
-      go
-      gomod
-      gosum
-      gowork
-      html
-      javascript
-      jsdoc
-      json
-      lua
-      luap
       markdown
       markdown_inline
-      nix
-      python
       query
-      ruby
-      rust
-      toml
-      tsx
-      typescript
       vim
       vimdoc
-      yaml
     ];
+    grammarPackages = config.eevee.grammarPackages;
     grammarQueryPackages = map (grammar: grammar.passthru.associatedQuery) grammarPackages;
     grammarBundle = pkgs.symlinkJoin {
       name = "nvim-treesitter-grammars";
@@ -54,7 +31,7 @@ _: {
     };
     treesitter = p.nvim-treesitter.withPlugins (_: grammarPackages);
   in {
-    config.eevee.grammarPackages = grammarPackages;
+    config.eevee.grammarPackages = baseGrammarPackages;
     config.eevee.grammarBundle = grammarBundle;
     config.eevee.treesitter = treesitter;
 
@@ -63,7 +40,6 @@ _: {
       "nvim-treesitter-textobjects" = [
         (mkDirSpec "nvim-treesitter-textobjects" sources.nvimTreesitterTextobjects {})
       ];
-      "nvim-ts-autotag" = [(mkDirSpec "nvim-ts-autotag" sources.nvimTsAutotag {})];
     };
   };
 }

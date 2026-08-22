@@ -34,10 +34,6 @@ _: {
       ];
       "astrocommunity" = [(mkDirSpec "astrocommunity" sources.astrocommunity {})];
       "better-escape.nvim" = [(mkDirSpec "better-escape.nvim" sources.betterEscape {})];
-      "chezmoi.nvim" = [(mkDirSpec "chezmoi.nvim" sources.chezmoi {})];
-      "chezmoi.vim" = [(mkDirSpec "chezmoi.vim" sources.chezmoiVim {})];
-      "gopher.nvim" = [(mkDirSpec "gopher.nvim" sources.gopher {})];
-      "schemastore.nvim" = [(mkDirSpec "schemastore.nvim" sources.schemastore {})];
     };
   };
 }

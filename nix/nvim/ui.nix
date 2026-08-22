@@ -10,10 +10,12 @@ _: {
   in {
     config.eevee.astroUiOpts = {
       colorscheme = "catppuccin-frappe";
+
       highlights = {
         init = {};
         astrodark = {};
       };
+
       icons = {
         LSPLoading1 = "⠋";
         LSPLoading2 = "⠙";
@@ -32,6 +34,7 @@ _: {
       astroui = [
         (mkDirSpec "astroui" sources.astroui {opts = config.eevee.astroUiOpts;})
       ];
+
       astrotheme = [(mkDirSpec "astrotheme" sources.astrotheme {})];
       catppuccin = [(mkDirSpec "catppuccin" sources.catppuccinNvim {})];
     };

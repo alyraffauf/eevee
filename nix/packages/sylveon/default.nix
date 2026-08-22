@@ -20,11 +20,30 @@ in {
         self.neovimModules.base
         self.neovimModules.astronvim
         self.neovimModules.astrocommunity
+        self.neovimModules.ai
+        self.neovimModules.ansible
+        self.neovimModules.build
+        self.neovimModules.completion
+        self.neovimModules.configLanguages
         self.neovimModules.core
+        self.neovimModules.debugging
+        self.neovimModules.formatting
+        self.neovimModules.go
+        self.neovimModules.git
+        self.neovimModules.jvm
         self.neovimModules.lsp
+        self.neovimModules.lua
+        self.neovimModules.mason
+        self.neovimModules.nix
+        self.neovimModules.otherLanguages
+        self.neovimModules.python
         self.neovimModules.ui
         self.neovimModules.resession
+        self.neovimModules.rust
+        self.neovimModules.shell
+        self.neovimModules.terminal
         self.neovimModules.treesitter
+        self.neovimModules.web
         self.neovimModules.plugins
         self.neovimModules.extraPackages
       ];
@@ -32,10 +51,12 @@ in {
       vim = {
         viAlias = true;
         vimAlias = true;
+
         globals = {
           mapleader = " ";
           maplocalleader = ",";
         };
+
         opts = {
           number = true;
           relativenumber = false;
@@ -43,6 +64,7 @@ in {
           shiftwidth = 0;
           tabstop = 2;
         };
+
         luaConfigRC.sylveonClipboard = inputs.nvf.lib.nvim.dag.entryAnywhere ''
           vim.g.clipboard = "osc52"
         '';

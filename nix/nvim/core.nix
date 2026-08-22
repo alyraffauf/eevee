@@ -18,12 +18,15 @@ _: {
           size = 1024 * 256;
           lines = 10000;
         };
+
         autopairs = true;
         cmp = true;
+
         diagnostics = {
           virtual_text = true;
           virtual_lines = false;
         };
+
         highlighturl = true;
         notifications = true;
       };
@@ -53,20 +56,7 @@ _: {
 
       autocmds = {
         alpha_autostart = false;
-        restore_session = [
-          {
-            event = "VimEnter";
-            desc = "Restore previous directory session if Neovim opened with no arguments";
-            nested = true;
-            callback = inline ''
-              function()
-                if vim.fn.argc(-1) == 0 then
-                  require("resession").load(vim.fn.getcwd(), { dir = "dirsession", silence_errors = true })
-                end
-              end
-            '';
-          }
-        ];
+
         autosave = [
           {
             event = ["InsertLeave" "CursorHold" "CursorHoldI"];
@@ -106,6 +96,7 @@ _: {
         highlight = true;
         indent = true;
         auto_install = false;
+
         ensure_installed = [
           "bash"
           "css"
@@ -141,6 +132,7 @@ _: {
       astrocore = [
         (mkDirSpec "astrocore" config.eevee.sources.astrocore {opts = config.eevee.astroCoreOpts;})
       ];
+
       astrocore-treesitter = [
         (inline ''          {
                         "AstroNvim/astrocore",

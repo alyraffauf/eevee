@@ -90,16 +90,35 @@
     };
 in {
   options.flake.neovimModules = {
+    ai = mkModuleOption "AI assistant integration.";
+    ansible = mkModuleOption "Ansible language support.";
     astronvim = mkModuleOption "AstroNvim configuration.";
     astrocommunity = mkModuleOption "AstroCommunity imports.";
     base = mkModuleOption "Shared Eevee module options and plugin packages.";
+    build = mkModuleOption "Build-system language support.";
+    completion = mkModuleOption "Completion and snippet support.";
+    configLanguages = mkModuleOption "Configuration language support.";
     core = mkModuleOption "Astrocore settings and mappings.";
+    debugging = mkModuleOption "Debug adapter support.";
     extraPackages = mkModuleOption "Language servers and command-line tools.";
+    formatting = mkModuleOption "Formatting and diagnostics.";
+    go = mkModuleOption "Go language support.";
+    git = mkModuleOption "Git integration.";
+    jvm = mkModuleOption "JVM language support.";
     lsp = mkModuleOption "Astrolsp settings.";
+    lua = mkModuleOption "Lua language support.";
+    mason = mkModuleOption "Mason integration.";
+    nix = mkModuleOption "Nix language support.";
+    otherLanguages = mkModuleOption "Additional language support.";
     plugins = mkModuleOption "Extra Lazy plugin specifications.";
+    python = mkModuleOption "Python language support.";
     resession = mkModuleOption "Resession configuration.";
+    rust = mkModuleOption "Rust language support.";
+    shell = mkModuleOption "Shell language support.";
+    terminal = mkModuleOption "Terminal integration.";
     treesitter = mkModuleOption "Tree-sitter configuration.";
     ui = mkModuleOption "Astroui and theme settings.";
+    web = mkModuleOption "Web language support.";
   };
 
   config.flake.neovimModules.base = {
