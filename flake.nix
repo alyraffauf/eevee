@@ -167,7 +167,7 @@
       flake = false;
     };
     nvimNio = {
-      url = "github:nvim-neotest/nvim-nio/21f5324bfac14e22ba26553caf69ec76ae8a7662";
+      url = "github:nvim-neotest/nvim-nio/edcc181a875301dd21840189aa2f2f9ad69fc172";
       flake = false;
     };
     nvimVtsls = {
