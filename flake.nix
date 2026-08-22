@@ -22,7 +22,7 @@
     };
 
     betterEscape = {
-      url = "github:max397574/better-escape.nvim/199dcc2643dec5d8dbdab4ec672cf405224dcb3b";
+      url = "github:max397574/better-escape.nvim/3f4bc0b326606264ff75967f59091b5ddada0554";
       flake = false;
     };
 

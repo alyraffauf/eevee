@@ -137,17 +137,17 @@
     "betterEscape": {
       "flake": false,
       "locked": {
-        "lastModified": 1730456135,
-        "narHash": "sha256-47j0FKQ74HXYHWuKgAlDioGFdYk/XxGU9Qswdd4Rnxw=",
+        "lastModified": 1776870127,
+        "narHash": "sha256-h7Xa8McjnCOOP8WbqbmmJn9jjBMvk89Tvh0Qt1stEVU=",
         "owner": "max397574",
         "repo": "better-escape.nvim",
-        "rev": "199dcc2643dec5d8dbdab4ec672cf405224dcb3b",
+        "rev": "3f4bc0b326606264ff75967f59091b5ddada0554",
         "type": "github"
       },
       "original": {
         "owner": "max397574",
         "repo": "better-escape.nvim",
-        "rev": "199dcc2643dec5d8dbdab4ec672cf405224dcb3b",
+        "rev": "3f4bc0b326606264ff75967f59091b5ddada0554",
         "type": "github"
       }
     },
