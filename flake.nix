@@ -199,7 +199,7 @@
       flake = false;
     };
     smartSplitsNvim = {
-      url = "github:mrjones2014/smart-splits.nvim/289971cfdbc7f7b1c91670a228b239d870130af7";
+      url = "github:mrjones2014/smart-splits.nvim/5e92431aa7f5e618c2f6825f682df6d94f6e0a02";
       flake = false;
     };
     snacksNvim = {
