@@ -7,13 +7,15 @@
     "helpers:pinGitHubActionDigests"
   ],
   "labels": ["dependencies"],
+  "timezone": "America/New_York",
   "platformAutomerge": true,
   "nix": {
     "enabled": true
   },
   "lockFileMaintenance": {
     "enabled": true,
-    "automerge": true
+    "automerge": true,
+    "schedule": ["before 4am"]
   },
   "packageRules": [
     {
