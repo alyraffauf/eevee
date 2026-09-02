@@ -24,10 +24,9 @@ _: {
       vimdoc
     ];
     grammarPackages = config.eevee.grammarPackages;
-    grammarQueryPackages = map (grammar: grammar.passthru.associatedQuery) grammarPackages;
     grammarBundle = pkgs.symlinkJoin {
       name = "nvim-treesitter-grammars";
-      paths = grammarPackages ++ grammarQueryPackages;
+      paths = ["${p.nvim-treesitter}/runtime"] ++ grammarPackages;
     };
     treesitter = p.nvim-treesitter.withPlugins (_: grammarPackages);
   in {
