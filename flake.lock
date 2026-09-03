@@ -699,11 +699,11 @@
     "nvimDap": {
       "flake": false,
       "locked": {
-        "lastModified": 1781854401,
-        "narHash": "sha256-IHm3CwO7qUTtOZqhljDjSzz4WbaAJ4kPY384MyZZ9ac=",
+        "lastModified": 1788312997,
+        "narHash": "sha256-VVHXHBKGmDnltHBMcVoBElaKMElXwJwB/7IZROQGCpg=",
         "ref": "refs/heads/master",
-        "rev": "9e848e09a697ee95302a3ef2dd43fd6eb709e570",
-        "revCount": 749,
+        "rev": "c9a0738e45f1bd41d792a126941348dce661cf9b",
+        "revCount": 750,
         "type": "git",
         "url": "https://codeberg.org/mfussenegger/nvim-dap"
       },
@@ -828,11 +828,11 @@
     "nvimTreesitterTextobjects": {
       "flake": false,
       "locked": {
-        "lastModified": 1784459145,
-        "narHash": "sha256-naZ+p5RrC+uUyFRaksmozDfNgJRifff+9TDWx79DCPk=",
+        "lastModified": 1788413224,
+        "narHash": "sha256-H5FkXSlZ8VME8R3Jww6fw908izLMGxlWcKFGRRPWOUU=",
         "owner": "nvim-treesitter",
         "repo": "nvim-treesitter-textobjects",
-        "rev": "898ee307df58f854d11cd7edd06472574d48014e",
+        "rev": "9dcbdb021b8056751c287a15ff8969d5be662438",
         "type": "github"
       },
       "original": {
@@ -910,11 +910,11 @@
     "packageInfoNvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1787664859,
-        "narHash": "sha256-QbZFJaGKlqjJ1FLmWvT5/epXlmk9N/7nLawNSweqZ6k=",
+        "lastModified": 1788331896,
+        "narHash": "sha256-ajoRR1KZfRn0i/BdJTSSLudJfppYkAdVaOeojNItoa8=",
         "owner": "vuki656",
         "repo": "package-info.nvim",
-        "rev": "e2469495215f576771b4567786b3c5709e98d87a",
+        "rev": "b86cf49efc3855dd94afb33304b278f6f122bf1a",
         "type": "github"
       },
       "original": {
