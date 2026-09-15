@@ -34,7 +34,7 @@ nix run .#sylveon
 }
 ```
 
-The modules live in `nix/nvim/`. Add an editor in `nix/packages/<editor>/default.nix`. Start with `nix/packages/sylveon/default.nix`, then change its imports, options, and plugin order.
+The modules live in `nix/nvim/`. See [AGENTS.md](AGENTS.md) for adding editor packages and checking changes.
 
 ## Develop
 
