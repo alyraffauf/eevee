@@ -34,7 +34,7 @@ nix run .#sylveon
 }
 ```
 
-The modules live in `nix/nvim/`. See [AGENTS.md](AGENTS.md) for adding editor packages and checking changes.
+The modules live in `nix/nvim/`. Editor packages live in `nix/packages/`.
 
 ## Develop
 
