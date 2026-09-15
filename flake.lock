@@ -317,11 +317,11 @@
     "gitsignsNvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1788962642,
-        "narHash": "sha256-WSbbfI2q4g224xJ1mDeOtnb+Oo7wR9T8VzUInPdOqI4=",
+        "lastModified": 1789391659,
+        "narHash": "sha256-md5Okzd3SUIp7zFVAib84MqkfUsgscMQB+GMCj8/Iq8=",
         "owner": "lewis6991",
         "repo": "gitsigns.nvim",
-        "rev": "f2421c550618d257048afa650413d9e542ddbe67",
+        "rev": "fd36f038e52ad8409fbf9926ae4a0a514cca04d8",
         "type": "github"
       },
       "original": {
@@ -596,11 +596,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1789149629,
-        "narHash": "sha256-H6GwaZzZf+4npqv0tph94w9tZddSjFjmQrVsW0z78uk=",
+        "lastModified": 1789286504,
+        "narHash": "sha256-eiEK7cKZORNEvX0GeF3RtNEF/JXhgf2RqSp3230q13E=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "eaad089433ca2bb662274377d33df3d0e51ef28b",
+        "rev": "ef34387ddd751e1ab8857adf4676492d32eb24ec",
         "type": "github"
       },
       "original": {
@@ -1044,11 +1044,11 @@
     "schemastore": {
       "flake": false,
       "locked": {
-        "lastModified": 1789171435,
-        "narHash": "sha256-p+h2y42PRUM1ZPIlBe31/n7IPmh3oEiWgL3HuoUI8Yg=",
+        "lastModified": 1789383688,
+        "narHash": "sha256-Bme8OmWLg9ZD9sUmsZ3Qa8SPkXcH31IssB/Q1c/H4Uo=",
         "owner": "b0o",
         "repo": "schemastore.nvim",
-        "rev": "05e938c0aa5dfbdbb11972fa4c8a85f27f402ba0",
+        "rev": "72d144a9e014646963b8a5c67a4fde19b9772528",
         "type": "github"
       },
       "original": {
