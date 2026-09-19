@@ -8,9 +8,13 @@ _: {
     config = {
       vim.extraPackages = lib.mkAfter [pkgs.ruff pkgs.ty];
       eevee.grammarPackages = lib.mkAfter [pkgs.vimPlugins.nvim-treesitter.grammarPlugins.python];
-      eevee.astroLspOpts.servers = lib.mkAfter ["ty"];
+      eevee.astroLspOpts.servers = lib.mkAfter ["ty" "ruff"];
       eevee.plugins = {
-        communityImports = lib.mkAfter [{"import" = "astrocommunity.pack.python";}];
+        communityImports = lib.mkAfter [
+          {"import" = "astrocommunity.pack.python.base";}
+          {"import" = "astrocommunity.pack.python.ty";}
+          {"import" = "astrocommunity.pack.python.ruff";}
+        ];
         "nvim-dap-python" = [
           {
             name = "nvim-dap-python";

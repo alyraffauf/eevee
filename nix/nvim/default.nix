@@ -187,7 +187,14 @@ in {
       description = "Astrocore opts.";
     };
     options.eevee.astroLspOpts = lib.mkOption {
-      type = lib.types.attrs;
+      type = lib.types.submodule {
+        freeformType = lib.types.attrs;
+        options.servers = lib.mkOption {
+          type = lib.types.listOf lib.types.str;
+          default = [];
+          description = "Language servers enabled by the language modules.";
+        };
+      };
       default = {};
       description = "Astrolsp opts.";
     };
