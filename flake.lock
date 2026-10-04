@@ -779,11 +779,11 @@
     "nvimLspFileOperations": {
       "flake": false,
       "locked": {
-        "lastModified": 1790998803,
-        "narHash": "sha256-48vd2Gk6AQyV1Rc9iGwolJ5Hrb5GwMQW7j+DeUkj6vE=",
+        "lastModified": 1791084424,
+        "narHash": "sha256-M71xgJWLRy3kHlIWPgfialZ437N6bMJIkvokHwiILJw=",
         "owner": "antosha417",
         "repo": "nvim-lsp-file-operations",
-        "rev": "57a446f3ada9f8e994aaeebcb5c1dc5f5c037a81",
+        "rev": "3fe61f14e15cd1ba3b34646b285fad2832b3b222",
         "type": "github"
       },
       "original": {
