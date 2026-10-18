@@ -14,7 +14,7 @@ _: {
       // extra;
   in {
     config = {
-      vim.extraPackages = lib.mkAfter [pkgs.rust-analyzer pkgs.clippy pkgs.rustfmt];
+      vim.extraPackages = lib.mkAfter [pkgs.rust-analyzer pkgs.cargo pkgs.rustc pkgs.clippy pkgs.rustfmt];
 
       eevee.grammarPackages = lib.mkAfter [pkgs.vimPlugins.nvim-treesitter.grammarPlugins.rust];
       eevee.astroLspOpts.servers = lib.mkAfter ["rust_analyzer"];
