@@ -779,11 +779,11 @@
     "nvimLspFileOperations": {
       "flake": false,
       "locked": {
-        "lastModified": 1792350488,
-        "narHash": "sha256-e0qZ0ZNT306YU1dFYaIItKV9qw9P3QbH7XCdTnsusx8=",
+        "lastModified": 1792635339,
+        "narHash": "sha256-vON3r1qJ6UVUFLYw1U0fA/e8JsrMZyv5Ajjf3NjxjO4=",
         "owner": "antosha417",
         "repo": "nvim-lsp-file-operations",
-        "rev": "8b150305362e971db0c40cee89ea4576a64e86cd",
+        "rev": "fccf7dec15409534852502bb805c3756cc61adfc",
         "type": "github"
       },
       "original": {
@@ -1044,11 +1044,11 @@
     "schemastore": {
       "flake": false,
       "locked": {
-        "lastModified": 1792537263,
-        "narHash": "sha256-drSDU575cd/PFimhgRs/jTHNL1GkCXs/igK9Z0cUz8c=",
+        "lastModified": 1792623672,
+        "narHash": "sha256-KXMpFhJMp2Lsew5S2tQSBXJ3mKLbQXgaufdh4CZJv6w=",
         "owner": "b0o",
         "repo": "schemastore.nvim",
-        "rev": "2af1680d9c054f10ce9ebc1f28443178c2b5fcbf",
+        "rev": "98c0d97389a1d46d7ee442161e05e4175d3763ec",
         "type": "github"
       },
       "original": {
@@ -1060,11 +1060,11 @@
     "smartSplitsNvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1792414382,
-        "narHash": "sha256-PhViC7HkIR71YXr3RkRcftwbRbZKy8//2z/yB/vTnJI=",
+        "lastModified": 1792598093,
+        "narHash": "sha256-eCYzGI0iFjCLdJhTD5bUNprYLed1fXXXXTOLHLynlOU=",
         "owner": "mrjones2014",
         "repo": "smart-splits.nvim",
-        "rev": "3629711db18279843618fda2e908700dcdc4b040",
+        "rev": "69ab668d96b54fa15907ac3245548fd8a3ce2318",
         "type": "github"
       },
       "original": {
