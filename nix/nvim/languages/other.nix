@@ -20,6 +20,7 @@ _: {
       eevee.grammarPackages = lib.mkAfter [
         pkgs.vimPlugins.nvim-treesitter.grammarPlugins.gleam
         pkgs.vimPlugins.nvim-treesitter.grammarPlugins.ruby
+        pkgs.vimPlugins.nvim-treesitter.grammarPlugins.typst
       ];
       eevee.astroLspOpts.servers = lib.mkAfter [
         "elixirls"
