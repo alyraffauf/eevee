@@ -317,11 +317,11 @@
     "gitsignsNvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1791888397,
-        "narHash": "sha256-VB1XBtSWwR8+XJhxfXn5IzV4r7oC+wJ/eL/bg7sC44g=",
+        "lastModified": 1792674502,
+        "narHash": "sha256-W4ZI5u5mBvK0/+iXZEYujIHS6wKnuP3pWEw6mxGtwPg=",
         "owner": "lewis6991",
         "repo": "gitsigns.nvim",
-        "rev": "fd780920613e541cbdfac41bf711583ed49f9249",
+        "rev": "683137003522aebd6948358334164a6ba2ca7cd5",
         "type": "github"
       },
       "original": {
@@ -667,11 +667,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1792450766,
-        "narHash": "sha256-tQPke0OIaFboQjxQPJL7a+pNzH1ZH1qQif046uo9Rf4=",
+        "lastModified": 1792790258,
+        "narHash": "sha256-WDx8oYbMf9Ej5q5MQjMNiNuHY8lHutbL/io6ygDDJOA=",
         "owner": "NotAShelf",
         "repo": "nvf",
-        "rev": "1d1a8c826837858404292e9336977f0d9131fb9b",
+        "rev": "460f51dc7bb72a81c0a7bd8d6e30cf9c9663f6c3",
         "type": "github"
       },
       "original": {
@@ -1060,11 +1060,11 @@
     "smartSplitsNvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1792598093,
-        "narHash": "sha256-eCYzGI0iFjCLdJhTD5bUNprYLed1fXXXXTOLHLynlOU=",
+        "lastModified": 1792772226,
+        "narHash": "sha256-K3hZRu5j9ox9pJ0dhc0W/5vk2aGFnjKxX21gZF+cuqI=",
         "owner": "mrjones2014",
         "repo": "smart-splits.nvim",
-        "rev": "69ab668d96b54fa15907ac3245548fd8a3ce2318",
+        "rev": "dd40c3a03ef71bcdf77fb4b14668cc1320293f48",
         "type": "github"
       },
       "original": {
