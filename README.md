@@ -1,8 +1,18 @@
 # eevee
 
-Eevee is a set of [NVF](https://github.com/NotAShelf/nvf) modules for Neovim. `sylveon` is my personal neovim package, delivered pre-wrapped with my configs.
+My [NVF](https://github.com/NotAShelf/nvf) modules for Neovim and Sylveon, my
+packaged AstroNvim configuration.
 
 ## Use Sylveon
+
+Run Sylveon directly:
+
+```sh
+nix run github:alyraffauf/eevee#sylveon
+```
+
+To use its configuration in your own NVF build, add the flake input and import
+its module:
 
 ```nix
 {
@@ -12,16 +22,12 @@ Eevee is a set of [NVF](https://github.com/NotAShelf/nvf) modules for Neovim. `s
 }
 ```
 
-Build or run it with Nix:
+`neovimModules.default` is an alias for `neovimModules.sylveon`.
 
-```bash
-nix build .#sylveon
-nix run .#sylveon
-```
+## Use individual modules
 
-## Use the modules
-
-`neovimModules.base` provides the pinned plugins and Lazy setup. Import it before the modules you want.
+`neovimModules.base` provides the pinned plugins and Lazy setup. Import it
+before the modules you want:
 
 ```nix
 {
@@ -34,12 +40,28 @@ nix run .#sylveon
 }
 ```
 
-The modules live in `nix/nvim/`. Editor packages live in `nix/packages/`.
+## Repository layout
 
-## Develop
+```text
+nix/nvim/           Reusable NVF modules
+nix/packages/       Packaged editors
+```
 
-```bash
-nix develop
+## Development
+
+Enter the pinned development shell with `nix develop`, or run `direnv allow` to
+load it automatically. Then run:
+
+```sh
 nix fmt
 nix flake check
 ```
+
+After changing Sylveon or its imported modules, build and test the package:
+
+```sh
+nix build .#sylveon
+nix run .#sylveon
+```
+
+This project is available under the [MIT License](LICENSE.md).
