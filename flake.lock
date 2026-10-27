@@ -667,11 +667,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1792889789,
-        "narHash": "sha256-xpH3z+T5NELixXRjxGJ3mx30kz63Xt2B0ZfPWl7hcUg=",
+        "lastModified": 1793047357,
+        "narHash": "sha256-eY8aBTGSgtx+25254i22jyjbj+JQkEIfb+JyQ2Exnuk=",
         "owner": "NotAShelf",
         "repo": "nvf",
-        "rev": "557d2eb05a76e5939e6a75351343cae5731a71f8",
+        "rev": "60b4593979c39e9a1227c9913bd835bb1a59054b",
         "type": "github"
       },
       "original": {
@@ -1044,11 +1044,11 @@
     "schemastore": {
       "flake": false,
       "locked": {
-        "lastModified": 1792969266,
-        "narHash": "sha256-zn7tBNFfALHaECJBzqoCpyWTdKAj7tMaO1PRq2sO3J0=",
+        "lastModified": 1793030655,
+        "narHash": "sha256-1lz7cZusrweu5ZnEpCWK/eEWD+nNY1LQhKMt5eNgkNk=",
         "owner": "b0o",
         "repo": "schemastore.nvim",
-        "rev": "067b472f6dbc04520982acc9ab14f27c68195c70",
+        "rev": "fa093b1323f7cb379f47fc6704b38864f1cb97bf",
         "type": "github"
       },
       "original": {
