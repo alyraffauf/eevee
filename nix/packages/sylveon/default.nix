@@ -147,13 +147,17 @@ in {
 
     flake.neovimModules.default = self.neovimModules.sylveon;
 
-    perSystem = {pkgs, ...}: {
+    perSystem = {
+      config,
+      pkgs,
+      ...
+    }: {
       packages.sylveon =
         (inputs.nvf.lib.neovimConfiguration {
           inherit pkgs;
           modules = [self.neovimModules.sylveon];
         }).neovim;
-      packages.default = self.packages.${pkgs.system}.sylveon;
+      packages.default = config.packages.sylveon;
     };
   };
 }
