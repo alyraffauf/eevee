@@ -317,11 +317,11 @@
     "gitsignsNvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1794579011,
-        "narHash": "sha256-xalBWhbRY6ovnKjoXnQXx5xTyQ3Wug9/kg1exRkDqzA=",
+        "lastModified": 1794926055,
+        "narHash": "sha256-c4tGHjLol18V5PaFIgRTK4hZKHBA7OZEr1wRXWroNGE=",
         "owner": "lewis6991",
         "repo": "gitsigns.nvim",
-        "rev": "dc7698f932792a764d3db95fedee26c38e728355",
+        "rev": "c0862d382a35b7b45757d8d151a6a634c09bf3ce",
         "type": "github"
       },
       "original": {
@@ -596,11 +596,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1794537146,
-        "narHash": "sha256-Wpz/7x/YWnDIBu7yj6ixe8j6fIMsidd9Y+o1PqPF3iM=",
+        "lastModified": 1794750194,
+        "narHash": "sha256-c6ZxSsG1c2luSrbESFfp9Jq2pSVhGst2to4aIzt2Nes=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "d5cc6833999746cffdfe0598f7bc801a57b887a9",
+        "rev": "1a08097fc1ed85575db39763b2c4a5d8970a37ba",
         "type": "github"
       },
       "original": {
@@ -667,11 +667,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1794522644,
-        "narHash": "sha256-EOYKot/+xy+p+5cd3+1EeR7nz1FevIkxC/Hs6TbndWg=",
+        "lastModified": 1794941510,
+        "narHash": "sha256-iZtLZ2bh2F1dvxiYYQNhXZTy7c2Lw9DpkD+Laq/pcog=",
         "owner": "NotAShelf",
         "repo": "nvf",
-        "rev": "d38e36c2513337b56a3b16af268c7a3f2d33de7a",
+        "rev": "f6a21f9c22e9ddf9cf88f9faf31d82985058ba14",
         "type": "github"
       },
       "original": {
@@ -701,7 +701,7 @@
       "locked": {
         "lastModified": 1789133830,
         "narHash": "sha256-9T6EL8mZ1rddDXBNvkh68jQSKK1bhi73IvyD6v464x8=",
-        "ref": "refs/heads/master",
+        "ref": "master",
         "rev": "cfa2d58f4537aca6ca83e2de1a0d9f1491121264",
         "revCount": 752,
         "type": "git",
@@ -1044,11 +1044,11 @@
     "schemastore": {
       "flake": false,
       "locked": {
-        "lastModified": 1794877250,
-        "narHash": "sha256-+oqK4LcEweP2dD0LYigQ3OXFoF6Acjn86HMoAfF2TdI=",
+        "lastModified": 1794963642,
+        "narHash": "sha256-YygWhTypgdKE/vf999BObE/uKhSSV8kZxtqM1ol0liQ=",
         "owner": "b0o",
         "repo": "schemastore.nvim",
-        "rev": "24123ae1335691e120f8bcd921902d5b3a98d06c",
+        "rev": "62be7a3daa56bb0031803435cc9302dab36467a7",
         "type": "github"
       },
       "original": {
