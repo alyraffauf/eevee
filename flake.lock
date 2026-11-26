@@ -87,11 +87,11 @@
     "astronvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1792158549,
-        "narHash": "sha256-31Q5+e+Jx4OSGlk2lxvbF58yL4/FNA9TV4+V5gx4sfk=",
+        "lastModified": 1795626051,
+        "narHash": "sha256-lkifYNKwTP8/83VGpoWz7vtSakxupkwTDpR4V+TwfKI=",
         "owner": "AstroNvim",
         "repo": "AstroNvim",
-        "rev": "fc95d5d331b897b1c6b46cbfa4e0251d8d9be6b7",
+        "rev": "a6aca91632fb745fde46cf29e1a5c13ee4596146",
         "type": "github"
       },
       "original": {
@@ -317,11 +317,11 @@
     "gitsignsNvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1795619123,
-        "narHash": "sha256-IXcKd+1X4M4Tm4eZKAXTV7W92wzKfOTRPXY9OhUUPF8=",
+        "lastModified": 1795623464,
+        "narHash": "sha256-tdGW+llx0ZpYWgf0wJANdT3qKeiCMWO03+REny67dKM=",
         "owner": "lewis6991",
         "repo": "gitsigns.nvim",
-        "rev": "86a49261a2308e0e8e3d6bda1000c47b3b4b42bd",
+        "rev": "166c03131e6a3528f692dd89f37668d991f17baa",
         "type": "github"
       },
       "original": {
@@ -1044,11 +1044,11 @@
     "schemastore": {
       "flake": false,
       "locked": {
-        "lastModified": 1795568436,
-        "narHash": "sha256-7GaBkbGsb0VrAQSP+N9Zkdv/LCb2Kkm8lE24Z2J3TSA=",
+        "lastModified": 1795669239,
+        "narHash": "sha256-fugV8ZtXbN/fSekdWJWxIVtGVDkiPNzQgnJSa6bjuXg=",
         "owner": "b0o",
         "repo": "schemastore.nvim",
-        "rev": "5926c7899b2e36cd0f944ef3a933abd68c0fcdb8",
+        "rev": "c01d3d7026af6347b03b05dc5972c072a7ed37af",
         "type": "github"
       },
       "original": {
